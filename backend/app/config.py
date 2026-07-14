@@ -89,9 +89,7 @@ class Settings(BaseSettings):
     cron_secret: Optional[str] = None
 
     # N8N Configuration
-    n8n_webhook_url: Optional[str] = (
-        "https://n8n.theflex.global/webhook/2b770e31-cedd-408f-ae28-afa8b23c598d"
-    )
+    n8n_webhook_url: Optional[str] = None
     n8n_checkin_crisis_webhook_url: Optional[str] = None
 
     @property
